@@ -1,0 +1,39 @@
+{
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "include": ["src/**/*", "test/**/*", "stories/**/*", "mocks/**/*"],
+    "exclude": ["node_modules"],
+    "typeAcquisition": {
+        "enable": false
+    },
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": ["*", "src/*", "test/*", "stories/*", "mocks/*"]
+        },
+        "outDir": "./dist/",
+        "diagnostics": false,
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "pretty": true,
+        "target": "es6",
+        "module": "es6",
+        "jsx": "preserve",
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "traceResolution": false,
+        "lib": ["es2015", "es2016", "es2017", "es2018", "dom"]
+    },
+    "files": ["declarations.d.ts"]
+}

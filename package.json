@@ -1,0 +1,65 @@
+{
+    "author": "Mark Carlson",
+    "bugs": {
+        "url": "https://github.com/mark-carlson/react-typescript-project/issues"
+    },
+    "dependencies": {
+        "@types/query-string": "^6.3.0",
+        "@typescript-eslint/parser": "^2.34.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.34.0",
+        "concurrently": "^5.2.0",
+        "eslint": "^6.5.1",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.0",
+        "husky": "^3.0.9",
+        "lint-staged": "^9.4.2",
+        "mocha": "^7.2.0",
+        "prettier": "^1.18.2",
+        "typescript": "^3.9.5",
+        "typescript-eslint": "0.0.1-alpha.0"
+    },
+    "homepage": "https://github.com/TakeoffTech/ui-scaffold#readme",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts,tsx}": [
+            "prettier --config .prettierrc --ignore-path .gitignore --write",
+            "eslint --ignore-path .gitignore --ignore-pattern '!.babelrc.js' --fix --max-warnings 0",
+            "git add"
+        ],
+        "*.{json,html}": [
+            "prettier --config .prettierrc --ignore-path .gitignore --write",
+            "git add"
+        ]
+    },
+    "name": "typescript-react-project",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mark-carlson/react-typescript-project.git"
+    },
+    "scripts": {
+        "build-storybook": "cd client && npm run build-storybook",
+        "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+        "install:all": "npm install && concurrently \"npm run install:server\" \"npm run install:client\"",
+        "install:client": "cd client && npm install",
+        "install:dev": "npm install && npm run install:client && npm run install:server",
+        "install:server": "cd server && npm install",
+        "start": "concurrently --kill-others-on-fail \"npm run start:server\" \"npm run start:client\"",
+        "start:client": "cd client && npm run dev",
+        "start:dev": "npm run start:client",
+        "start:server": "cd server && npm run start",
+        "storybook": "cd client && npm run storybook",
+        "test": "npm run test:client && npm run test:server",
+        "test:client": "cd client && npm run test",
+        "test:coverage": "cd client && npm run test:coverage && cd ../server && npm run test:coverage",
+        "test:server": "cd server && npm run test",
+        "updateSnapshot": "cd client && npm run test -- -u"
+    },
+    "version": "1.0.0"
+}

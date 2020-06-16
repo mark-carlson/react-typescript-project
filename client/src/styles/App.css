@@ -1,0 +1,36 @@
+body {
+  background-color: #f8f8f8;
+  font-family: var(--mainFontFamily), sans-serif;
+  margin: 0;
+}
+
+.block {
+  width: 100%;
+}
+
+.overflow-hidden 
+.model-hide-overflow {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.is-clickable {
+  cursor: pointer;
+}
+
+.centered {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

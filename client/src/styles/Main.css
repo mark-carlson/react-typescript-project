@@ -1,0 +1,5 @@
+/* This contains constants for CSS */
+:root {
+    --black: #000000;
+    --mainFontFamily: 'Muli', sans-serif;
+}

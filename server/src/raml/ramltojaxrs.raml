@@ -1,0 +1,11 @@
+#%RAML 1.0 Library
+
+annotationTypes:
+  resources:
+    allowedTargets: [Resource, Method, Response, API]
+    properties:
+      plugins?: any[]
+  methods:
+    allowedTargets: [Method, API]
+    properties:
+      plugins?: any[]

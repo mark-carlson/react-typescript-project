@@ -1,0 +1,58 @@
+{
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended",
+        "plugin:react/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
+        "brace-style": "error",
+        "camelcase": "error",
+        "curly": "error",
+        "default-case": "error",
+        "dot-notation": "error",
+        "eqeqeq": "error",
+        "indent": "off",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-duplicate-case": "error",
+        "no-empty": 1,
+        "no-empty-function": "error",
+        "no-extra-semi": "error",
+        "no-fallthrough": "error",
+        "no-func-assign": "error",
+        "no-irregular-whitespace": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-multi-spaces": "error",
+        "no-redeclare": "error",
+        "no-trailing-spaces": "error",
+        "no-unreachable": "error",
+        "no-unused-vars": "error",
+        "no-use-before-define": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "16.8"
+        }
+    }
+}
