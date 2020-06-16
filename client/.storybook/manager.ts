@@ -1,6 +1,6 @@
 import { addons } from '@storybook/addons';
-import decantingUiTheme from './decanting-ui-theme';
+import projectTheme from './project-theme';
 
 addons.setConfig({
-    theme: decantingUiTheme,
+    theme: projectTheme,
 });

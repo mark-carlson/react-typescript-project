@@ -65,7 +65,7 @@ if (production) {
             openAnalyzer: true,
         }),
         new FaviconsWebpackPlugin({
-            // logo: path.resolve(__dirname, 'logo.png'),
+            logo: path.resolve(__dirname, 'assets/images/typescript_react.png'),
             mode: 'webapp',
             devMode: 'webapp',
             favicons: {

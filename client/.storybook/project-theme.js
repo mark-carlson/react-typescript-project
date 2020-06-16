@@ -33,5 +33,5 @@ export default create({
 
     brandTitle: 'TypeScript/React Project',
     brandUrl: 'https://github.com/mark-carlson/react-typescript-project',
-    brandImage: 'https://miro.medium.com/max/1024/1*Ukhx76VQ8E6JXEW7xfIzSA.png',
+    brandImage: 'https://miro.medium.com/max/872/0*pf_e5mrU5F7NhlnP.png',
 });
