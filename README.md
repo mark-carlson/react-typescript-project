@@ -8,7 +8,7 @@ Node JS: [https://nodejs.org/en/](https://nodejs.org/en/)
 
 Check to see if node is installed first by running `node -v`
 
-If node is not installed, use the link from [https://nodejs.org/en/](https://nodejs.org/en/) and choose the LTS version. Install Node before attempting to install Decanting UI.
+If node is not installed, use the link from [https://nodejs.org/en/](https://nodejs.org/en/) and choose the LTS version. Install Node before attempting to install this project.
 
 ## Installation
 
