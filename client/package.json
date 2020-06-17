@@ -114,9 +114,9 @@
         "webpack-dev-server": "^3.11.0",
         "webpack-hot-client": "^4.1.2"
     },
-    "name": "ui-scaffold-client",
+    "name": "typescript-react-project-client",
     "repository": {
-        "url": "https://github.com/TakeoffTech/ui-scaffold"
+        "url": "https://github.com/mark-carlson/react-typescript-project"
     },
     "scripts": {
         "build": "NODE_ENV=production webpack --progress",
