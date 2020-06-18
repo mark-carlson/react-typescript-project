@@ -50,7 +50,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Storybook
 
-Stories for components should be included alongside the components in the `/client/src/components` folder. See example in `/client/src/components/example`. Some of the stories may have server integration. For those to work, you will need to have the server app running in another terminal. (http://localhost:3001)
+Stories for components should be added to the `/client/stories` folder, using a folder structure that mimics the structure you create in the `/client/src` folder. See example in `/client/stories/pages`. Some of the stories may have server integration. For those to work, you will need to have the server app running in another terminal. (http://localhost:3001)
 
 Start Storybook with this script:
 
