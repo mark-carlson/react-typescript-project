@@ -25,7 +25,7 @@ const plugins = [
     new webpack.optimize.OccurrenceOrderPlugin(),
     new ForkTsCheckerWebpackPlugin(),
     new HtmlWebpackPlugin({
-        title: 'UI-SCAFFOLD',
+        title: 'react-typescript-project',
     }),
     new MiniCssExtractPlugin({
         filename: development ? '[name].css' : '[name].[hash].css',
