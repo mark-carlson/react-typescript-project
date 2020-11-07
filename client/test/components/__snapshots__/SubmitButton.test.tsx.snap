@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubmitButton /> should render correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="submit-btn "
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<SubmitButton /> should render correctly with a class 1`] = `
+<DocumentFragment>
+  <button
+    class="submit-btn special-class"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;

@@ -45,6 +45,7 @@
     },
     "scripts": {
         "build-storybook": "cd client && npm run build-storybook",
+        "component": "node ./client/build-scripts/newComponent.js",
         "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
         "install:all": "npm install && concurrently \"npm run install:server\" \"npm run install:client\"",
         "install:client": "cd client && npm install",
